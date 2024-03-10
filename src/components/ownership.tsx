@@ -1,4 +1,5 @@
-import React from "react";
+import React, { Fragment } from "react";
+import { ROADMAPDATA } from "../data/roadmapData";
 
 const Ownership = () => {
   return (
@@ -7,44 +8,28 @@ const Ownership = () => {
         className="text-5xl lg:text-8xl font-bold mb-4 title_element default-text"
         data-aos="fade-up"
       >
-        CLAN OWNERSHIP
+        ROADMAP
       </h2>
-      <p className="mb-8  text-md md:text-xl" data-aos="fade-up">
+      {/* <p className="mb-8  text-md md:text-xl" data-aos="fade-up">
         Get your rewards Sky-High by becoming an all-powerful memelord
-      </p>
+      </p> */}
       <div data-aos="fade-up" className="flex flex-wrap justify-center gap-4">
-        <div className="bg-[#5c3f2c] flex items-center p-6 rounded-lg shadow-lg w-full md:w-[300px] h-[250px] text-center">
-          <div>
-            <h1 className="text-4xl  title_element">Manage Goat</h1>
-            <p className="my-3">
-              Being a memelord, you’re in full control here: boss around until
-              you’re out
-            </p>
-          </div>
-        </div>
-
-        <div
-          data-aos="fade-up"
-          className="bg-[#5c3f2c] flex items-center p-6 rounded-lg shadow-lg w-full md:w-[300px] h-[250px] text-center"
-        >
-          <div>
-            <h1 className="text-4xl  title_element">Manage Goat</h1>
-            <p className="my-3">
-              Being a memelord, you’re in full control here: boss around until
-              you’re out
-            </p>
-          </div>
-        </div>
-
-        <div className="bg-[#5c3f2c] flex items-center p-6 rounded-lg shadow-lg w-full md:w-[300px] h-[250px] text-center">
-          <div>
-            <h1 className="text-4xl  title_element">Manage Goat</h1>
-            <p className="my-3">
-              Being a memelord, you’re in full control here: boss around until
-              you’re out
-            </p>
-          </div>
-        </div>
+        {ROADMAPDATA.map(({ title, content }, index) => (
+          <Fragment>
+            <div
+              key={index}
+              className="bg-[#040404fc] flex items-center p-6 rounded-lg shadow-lg w-full md:w-[300px] h-[250px] text-center"
+            >
+              <div>
+                <h1 className="text-4xl  title_element">{title}</h1>
+                <p className="my-3">
+                  {content}
+                </p>
+              </div>
+            </div>
+           
+          </Fragment>
+        ))}
       </div>
     </div>
   );

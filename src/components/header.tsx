@@ -3,12 +3,13 @@ import Button from "./micro/button";
 
 const Header = () => {
   return (
-    <header className="bg-[url('/path-to-your-background-image')] bg-cover bg-center p-4">
+    <header className=" bg-cover bg-center p-4">
       <nav className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <span className=" md:block  font-bold title_element  text-3xl default-text default-text">
+          {/* <span className=" md:block  font-bold title_element  text-3xl default-text default-text">
             GOATSTX
-          </span>
+          </span> */}
+          <img src="/logo.png" width={"65"}/>
         </div>
         {/* <div className=" hidden md:flex items-center none">
      
@@ -38,7 +39,7 @@ const Header = () => {
           </a>
         </div> */}
         <div className="flex items-center">
-          <Button>Connect Wallet</Button>
+          {/* <Button>Connect Wallet</Button> */}
         </div>
       </nav>
     </header>
