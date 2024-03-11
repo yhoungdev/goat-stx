@@ -5,7 +5,11 @@
   --dark: "#936947";
   --darkBg: #3f2d1e;
   --font-nunito: "Nunito", sans-serif;
+  --bg-green: #13875c;  
 }
+
+
+
 
 @font-face {
   font-family: gamer;
@@ -23,7 +27,7 @@ body {
 
 .custom-button {
   background: #e0a800; /* Replace with the exact gradient/colors you need */
-  background: linear-gradient(180deg, #e0a800 0%, #c76c02 100%);
+  background: linear-gradient(180deg, #e6e6e6 0%, var(--bg-green) 100%);
   box-shadow:
     0 4px 6px rgba(0, 0, 0, 0.1),
     0 1px 3px rgba(0, 0, 0, 0.08);
@@ -57,12 +61,12 @@ body {
 } */
 
 .default-box {
-  box-shadow: 2px 2px 0 #d47500;
+  box-shadow: 2px 2px 0 #ffffff;
 }
 
 .default-text {
   /* Define the text color gradient */
-  background: linear-gradient(180deg, #eee5ca 0%, #c76c02 100%);
+  background: linear-gradient(180deg, #eee5ca 0%, var(--bg-green) 100%);
 
   /* Clip the background to the text */
   -webkit-background-clip: text;

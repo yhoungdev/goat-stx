@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className=" text-white p-4 flex flex-col md:flex-row justify-between items-center container mx-auto">
       <div className="flex flex-col sm:flex-row items-center justify-between w-full md:w-auto mb-4 md:mb-0">
-        <h1 className="title_element text-3xl">GoatSTX LOGO</h1>
+      <img src="/logo.png" width={"65"}/>
       </div>
       <div className="flex justify-center mb-4 md:mb-0 w-full md:w-auto">
         <a
