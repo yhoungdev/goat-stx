@@ -36,11 +36,12 @@ const ActivitySection = () => {
           <div
             className="md:flex md:justify-end  bg-black h-[400px] rounded-lg"
             data-aos="fade-up"
-            style={{ backgroundImage: "url(/headerImage.jpeg)",
-              backgroundRepeat: 'no-repeat',
-              backgroundSize: 'cover',
-              backgroundPosition: 'center'  
-          }}
+            style={{
+              backgroundImage: "url(/headerImage.jpeg)",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           ></div>
         </div>
       </div>

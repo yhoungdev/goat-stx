@@ -5,11 +5,8 @@
   --dark: "#936947";
   --darkBg: #3f2d1e;
   --font-nunito: "Nunito", sans-serif;
-  --bg-green: #13875c;  
+  --bg-green: #13875c;
 }
-
-
-
 
 @font-face {
   font-family: gamer;
@@ -26,7 +23,7 @@ body {
 }
 
 .custom-button {
-  background: #e0a800; /* Replace with the exact gradient/colors you need */
+  background: #e0a800;
   background: linear-gradient(180deg, #e6e6e6 0%, var(--bg-green) 100%);
   box-shadow:
     0 4px 6px rgba(0, 0, 0, 0.1),
@@ -46,19 +43,11 @@ body {
 }
 
 .shadow-effect {
-  color: #ffc107; /* Main text color, pick the one that matches your design */
+  color: #ffc107;
 
   font-weight: bold;
   text-shadow: 2px 2px 0 #d47500;
 }
-
-/* .secondary-effect {
-  
-  font-weight: bold;
-  text-shadow:
-    2px 2px 0 #ffc107 !important;
-    
-} */
 
 .default-box {
   box-shadow: 2px 2px 0 #ffffff;
@@ -85,6 +74,17 @@ body {
 
   /* Necessary to make the gradient work */
   display: inline-block; /* or 'block', depending on your layout */
+}
+
+.hero-text {
+  background: #fff;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+  display: inline-block;
 }
 
 .custom-button:hover {

@@ -10,7 +10,15 @@ const Information = () => {
         CRYPTO MEME RAMPAGE STARTS TODAY!
       </h2>
 
-      <div className="bg-[#5c3f2c] flex items-center mx-auto p-6 rounded-lg shadow-lg w-full md:w-[900px] h-[350px] md:h-[500px] text-center">
+      <div
+        className="bg-[#5c3f2c] flex items-center mx-auto p-6 rounded-lg shadow-lg w-full md:w-[900px] h-[350px] md:h-[500px] text-center"
+        style={{
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "center",
+          backgroundPosition: "center",
+          backgroundImage: "url(/bg/cat.jpeg)",
+        }}
+      >
         <div></div>
       </div>
     </div>

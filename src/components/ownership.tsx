@@ -22,12 +22,9 @@ const Ownership = () => {
             >
               <div>
                 <h1 className="text-4xl  title_element">{title}</h1>
-                <p className="my-3">
-                  {content}
-                </p>
+                <p className="my-3">{content}</p>
               </div>
             </div>
-           
           </Fragment>
         ))}
       </div>

@@ -9,7 +9,7 @@ const Header = () => {
           {/* <span className=" md:block  font-bold title_element  text-3xl default-text default-text">
             GOATSTX
           </span> */}
-          <img src="/logo.png" width={"65"}/>
+          <img src="/logo.png" width={"65"} />
         </div>
         {/* <div className=" hidden md:flex items-center none">
      

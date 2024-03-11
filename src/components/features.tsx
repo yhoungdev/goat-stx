@@ -14,13 +14,45 @@ const Feature = () => {
       </p>
       <div className="" data-aos="fade-up">
         <div className="flex gap-4 flex-col md:flex-row">
-          <div className="bg-blue-300 p-6 rounded-lg shadow-md w-[80vw] h-[350px] md:w-[600px]"></div>
-          <div className="bg-black p-6 rounded-lg shadow-md w-[80vw] h-[350px] md:w-[300px]"></div>
+          <div
+            className=" p-6 rounded-lg shadow-md w-[80vw] h-[350px] md:w-[600px]"
+            style={{
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "center",
+              backgroundPosition: "center",
+              backgroundImage: "url(/bg/4.jpeg)",
+            }}
+          ></div>
+          <div
+            className="bg-black p-6 rounded-lg shadow-md w-[80vw] h-[350px] md:w-[300px]"
+            style={{
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "center",
+              backgroundPosition: "center",
+              backgroundImage: "url(/bg/4.jpeg)",
+            }}
+          ></div>
         </div>
 
         <div className="flex gap-4 flex-col md:flex-row-reverse my-8">
-          <div className="bg-blue-300 p-6 rounded-lg shadow-md w-[80vw] h-[350px] md:w-[600px]"></div>
-          <div className="bg-black p-6 rounded-lg shadow-md w-[80vw] h-[350px] md:w-[300px]"></div>
+          <div
+            className="bg-blue-300 p-6 rounded-lg shadow-md w-[80vw] h-[350px] md:w-[600px]"
+            style={{
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "center",
+              backgroundPosition: "center",
+              backgroundImage: "url(/bg/6.jpeg)",
+            }}
+          ></div>
+          <div
+            className="bg-black p-6 rounded-lg shadow-md w-[80vw] h-[350px] md:w-[300px]"
+            style={{
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "center",
+              backgroundPosition: "center",
+              backgroundImage: "url(/bg/7.jpeg)",
+            }}
+          ></div>
         </div>
       </div>
     </div>
