@@ -76,7 +76,7 @@ const Feature = () => {
               display: 'flex',
               alignItems: 'center'
             }}>
-              <div>
+              <div className="w-full">
                 <h1 className="text-bold title_element text-4xl">Anti rug liquidity locker</h1>
               <p className="my-4">
               projects and meme developers lock liquidity, creating a more secured meme ecosystem
@@ -98,7 +98,7 @@ const Feature = () => {
               display: 'flex',
               alignItems: 'center'
             }}>
-              <div className="text-center">
+              <div className="text-center w-full">
                 <h1 className="text-bold title_element text-4xl">Meme Dex </h1>
               <p className="1em">
               Trade meme tokens pairs with ease

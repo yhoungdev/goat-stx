@@ -1,7 +1,7 @@
 
 import React from "react";
 import Header from "./header";
-
+import Button from "./micro/button";
 const Hero = () => {
   return (
     <div
@@ -19,7 +19,11 @@ const Hero = () => {
           <h1 className="hero-text my-[2em] title_element text-[5em] text-center md:text-[90px] font-bold mb-4 leading-snug">
             MEME FINANCE LAYER OF BITCOIN
           </h1>
+
+          <Button className="">Join Discord</Button>
         </div>
+
+        
       </div>
     </div>
   );
