@@ -14,17 +14,18 @@ const Footer = () => {
         >
           Road Map
         </a>
-     
       </div>
       <div className="flex justify-center w-full md:w-auto">
         {/* Insert actual links to your social media */}
-        <a href="https://tinyurl.com/GoatCoinSTXdiscord" className="text-white px-2">
+        <a
+          href="https://tinyurl.com/GoatCoinSTXdiscord"
+          className="text-white px-2"
+        >
           <FaDiscord size={24} />
         </a>
         <a href="https://twitter.com/GoatCoinSTX" className="text-white px-2">
           <FaTwitter size={24} />
         </a>
-     
       </div>
     </footer>
   );

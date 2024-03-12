@@ -1,4 +1,3 @@
-
 import React from "react";
 import Header from "./header";
 import Button from "./micro/button";
@@ -20,12 +19,9 @@ const Hero = () => {
             MEME FINANCE LAYER OF BITCOIN
           </h1>
           <a href="https://tinyurl.com/GoatCoinSTXdiscord">
-          <Button className="">Join Discord</Button>
+            <Button className="">Join Discord</Button>
           </a>
-     
         </div>
-
-        
       </div>
     </div>
   );

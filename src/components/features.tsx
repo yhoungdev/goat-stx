@@ -23,16 +23,22 @@ const Feature = () => {
               backgroundImage: "url(/bg/6.jpeg)",
             }}
           >
-            <div className=" w-full h-full p-6  " style={{
-              background: 'rgb(0 0 0 / 91%)',
-              display: 'flex',
-              alignItems: 'center'
-            }}>
+            <div
+              className=" w-full h-full p-6  "
+              style={{
+                background: "rgb(0 0 0 / 91%)",
+                display: "flex",
+                alignItems: "center",
+              }}
+            >
               <div>
-                <h1 className="text-bold title_element text-4xl">Full scale meme launchpad</h1>
-              <p className="1em">
-              create, launch and bootstrap meme projects with no extra line of codes
-              </p>
+                <h1 className="text-bold title_element text-4xl">
+                  Full scale meme launchpad
+                </h1>
+                <p className="1em">
+                  create, launch and bootstrap meme projects with no extra line
+                  of codes
+                </p>
               </div>
             </div>
           </div>
@@ -45,24 +51,27 @@ const Feature = () => {
               backgroundImage: "url(/bg/7.jpeg)",
             }}
           >
-            <div className=" w-full h-full p-6  " style={{
-              background: 'rgb(0 0 0 / 91%)',
-              display: 'flex',
-              alignItems: 'center',
-              textAlign: 'center'
-            }}>
+            <div
+              className=" w-full h-full p-6  "
+              style={{
+                background: "rgb(0 0 0 / 91%)",
+                display: "flex",
+                alignItems: "center",
+                textAlign: "center",
+              }}
+            >
               <div>
-                <h1 className="text-bold default_text title_element text-4xl">First meme staking protocol on bitcoin </h1>
-              <p className="1em">
-              stake meme tokens earn rewards
-              </p>
+                <h1 className="text-bold default_text title_element text-4xl">
+                  First meme staking protocol on bitcoin{" "}
+                </h1>
+                <p className="1em">stake meme tokens earn rewards</p>
               </div>
             </div>
           </div>
         </div>
 
         <div className="flex gap-4 flex-col md:flex-row-reverse my-8">
-        <div
+          <div
             className="bg-black rounded-lg text-white  shadow-md w-[80vw] h-[350px] md:w-[600px]"
             style={{
               backgroundRepeat: "no-repeat",
@@ -71,20 +80,26 @@ const Feature = () => {
               backgroundImage: "url(/bg/4.jpeg)",
             }}
           >
-            <div className=" w-full h-full p-6  mx-auto" style={{
-              background: 'rgb(0 0 0 / 91%)',
-              display: 'flex',
-              alignItems: 'center'
-            }}>
+            <div
+              className=" w-full h-full p-6  mx-auto"
+              style={{
+                background: "rgb(0 0 0 / 91%)",
+                display: "flex",
+                alignItems: "center",
+              }}
+            >
               <div className="w-full">
-                <h1 className="text-bold title_element text-4xl">Anti rug liquidity locker</h1>
-              <p className="my-4">
-              projects and meme developers lock liquidity, creating a more secured meme ecosystem
-              </p>
+                <h1 className="text-bold title_element text-4xl">
+                  Anti rug liquidity locker
+                </h1>
+                <p className="my-4">
+                  projects and meme developers lock liquidity, creating a more
+                  secured meme ecosystem
+                </p>
               </div>
             </div>
           </div>
-           <div
+          <div
             className="bg-black rounded-lg text-white  shadow-md w-[80vw] h-[350px] md:w-[400px]"
             style={{
               backgroundRepeat: "no-repeat",
@@ -93,16 +108,17 @@ const Feature = () => {
               backgroundImage: "url(/bg/3.jpeg)",
             }}
           >
-            <div className=" w-full h-full p-6  " style={{
-              background: 'rgb(0 0 0 / 91%)',
-              display: 'flex',
-              alignItems: 'center'
-            }}>
+            <div
+              className=" w-full h-full p-6  "
+              style={{
+                background: "rgb(0 0 0 / 91%)",
+                display: "flex",
+                alignItems: "center",
+              }}
+            >
               <div className="text-center w-full">
                 <h1 className="text-bold title_element text-4xl">Meme Dex </h1>
-              <p className="1em">
-              Trade meme tokens pairs with ease
-              </p>
+                <p className="1em">Trade meme tokens pairs with ease</p>
               </div>
             </div>
           </div>

@@ -20,7 +20,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/roadmap" element={<Roadmap />} />
-        
       </Routes>
     </Router>
   );
