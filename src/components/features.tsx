@@ -7,11 +7,11 @@ const Feature = () => {
         className="text-5xl md:text-8xl text-white mb-6 title_element default-text"
         data-aos="fade-up"
       >
-        GAME FEATURES
+        PROJECT UTILITY
       </h2>
-      <p className="text-lg text-gray-200 mb-12" data-aos="fade-up">
+      {/* <p className="text-lg text-gray-200 mb-12" data-aos="fade-up">
         Here's the breakdown of the next meme-styled gaming mona lisa
-      </p>
+      </p> */}
       <div className="" data-aos="fade-up">
         <div className="flex gap-4 flex-col md:flex-row">
           <div
