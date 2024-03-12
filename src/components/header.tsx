@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./micro/button";
+import { FaDiscord , FaTwitter } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -9,16 +9,12 @@ const Header = () => {
           {/* <span className=" md:block  font-bold title_element  text-3xl default-text default-text">
             GOATSTX
           </span> */}
-          <img src="/logo.png" width={"65"} />
+         <a href="/">
+         <img src="/logo.png" width={"65"} />
+         </a>
         </div>
-        <div className=" hidden md:flex items-center none">
-{/*      
-          <a
-             href="/"
-             className="text-white px-4 py-2 hover:underline title_element  default-text text-3xl"
-          >
-            About Us
-          </a> */}
+        {/* <div className=" hidden md:flex items-center none">
+
           <a
               href="/roadmap"
               className="text-white px-4 py-2 hover:underline title_element  default-text text-3xl"
@@ -26,10 +22,23 @@ const Header = () => {
             Road Map
           </a>
         
-        </div>
-        <div className="flex items-center">
-          {/* <Button>Connect Wallet</Button> */}
-        </div>
+        </div> */}
+        <div className="flex justify-center w-full md:w-auto items-center">
+        <a
+              href="/roadmap"
+              className="text-white px-4 py-2 hover:underline title_element  default-text text-3xl"
+          >
+            Road Map
+          </a>
+        {/* Insert actual links to your social media */}
+        <a href="https://tinyurl.com/GoatCoinSTXdiscord" className="text-white px-2">
+          <FaDiscord size={24} />
+        </a>
+        <a href="https://twitter.com/GoatCoinSTX" className="text-white px-2">
+          <FaTwitter size={24} />
+        </a>
+     
+      </div>
       </nav>
     </header>
   );
