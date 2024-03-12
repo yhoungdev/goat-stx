@@ -19,8 +19,10 @@ const Hero = () => {
           <h1 className="hero-text my-[2em] title_element text-[5em] text-center md:text-[90px] font-bold mb-4 leading-snug">
             MEME FINANCE LAYER OF BITCOIN
           </h1>
-
+          <a href="https://tinyurl.com/GoatCoinSTXdiscord">
           <Button className="">Join Discord</Button>
+          </a>
+     
         </div>
 
         
