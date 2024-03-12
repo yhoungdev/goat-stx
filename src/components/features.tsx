@@ -15,23 +15,49 @@ const Feature = () => {
       <div className="" data-aos="fade-up">
         <div className="flex gap-4 flex-col md:flex-row">
           <div
-            className=" p-6 rounded-lg shadow-md w-[80vw] h-[350px] md:w-[600px]"
+            className=" text-white  rounded-lg shadow-md w-[80vw] h-[350px] md:w-[500px]"
             style={{
               backgroundRepeat: "no-repeat",
               backgroundSize: "center",
               backgroundPosition: "center",
               backgroundImage: "url(/bg/4.jpeg)",
             }}
-          ></div>
+          >
+            <div className=" w-full h-full p-6  " style={{
+              background: 'rgb(0 0 0 / 91%)',
+              display: 'flex',
+              alignItems: 'center'
+            }}>
+              <div>
+                <h1 className="text-bold">Anti rug liquidity locker </h1>
+              <p className="1em">
+              projects and meme developers lock liquidity, creating a more secured meme ecosystem
+              </p>
+              </div>
+            </div>
+          </div>
           <div
-            className="bg-black p-6 rounded-lg shadow-md w-[80vw] h-[350px] md:w-[300px]"
+            className="bg-black rounded-lg text-white  shadow-md w-[80vw] h-[350px] md:w-[400px]"
             style={{
               backgroundRepeat: "no-repeat",
               backgroundSize: "center",
               backgroundPosition: "center",
               backgroundImage: "url(/bg/4.jpeg)",
             }}
-          ></div>
+          >
+            <div className=" w-full h-full p-6  " style={{
+              background: 'rgb(0 0 0 / 91%)',
+              display: 'flex',
+              alignItems: 'center'
+            }}>
+              <div>
+                <h1 className="text-bold">Anti rug liquidity locker </h1>
+              <p className="1em">
+              projects and meme developers lock liquidity, creating a more secured meme ecosystem
+              </p>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="flex gap-4 flex-col md:flex-row-reverse my-8">
