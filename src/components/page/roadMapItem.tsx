@@ -1,7 +1,7 @@
 import React from "react";
 
 const RoadmapItem = ({ title, imageSrc }) => (
-  <div className="flex flex-col items-center p-4 bg-[#091813] w-full md:w-[400px] border-l-8 border-white py-[5em]">
+  <div className="flex flex-col items-center p-4 bg-[#091813] w-full md:w-[400px] border-l-8 border-[green] py-[5em]">
     <h3 className="text-white text-lg font-semibold  ">{title}</h3>
   </div>
 );
