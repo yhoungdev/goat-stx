@@ -16,10 +16,10 @@ const ROADMAP = [
 ];
 
 const RoadmapData = () => {
-  return (
+  return ( 
     <div className="">
-      <div className="container mx-auto p-4">
-        <div className="flex flex-wrap  items-stretch gap-8 md:gap-[2em]">
+      <div className="container mx-auto p-4 ">
+        <div className="flex flex-wrap justify-center  items-stretch gap-8 md:gap-[2em]">
           {ROADMAP.map((_, key) => (
             <RoadmapItem
               key={key}

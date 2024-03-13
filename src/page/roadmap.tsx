@@ -8,10 +8,10 @@ const Roadmap = () => {
   return (
     <>
       <Header />
-      {/* Adjusted the section for full height and flex centering */}
-      <section className="text-white flex justify-center items-center min-h-screen">
+     
+      <section className="text-white flex justify-center items-center h-[60vh]">
         <div className="max-w-2xl px-4 md:px-8 text-center  space-y-6">
-          {/* Text centering adjustments */}
+      
           <h2 className="text-5xl md:text-7xl font-bold uppercase title_element default-text">
             GOATSTX ROADMAP
           </h2>

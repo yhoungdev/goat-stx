@@ -15,7 +15,7 @@ const Feature = () => {
       <div className="" data-aos="fade-up">
         <div className="flex gap-4 flex-col md:flex-row">
           <div
-            className=" text-white  rounded-lg shadow-md w-[80vw] h-[350px] md:w-[500px]"
+            className=" text-white  rounded-lg shadow-md w-[80vw] h-[350px] md:w-[600px]"
             style={{
               backgroundRepeat: "no-repeat",
               backgroundSize: "center",
@@ -26,9 +26,9 @@ const Feature = () => {
             <div
               className=" w-full h-full p-6  "
               style={{
-                background: "rgb(0 0 0 / 91%)",
+                background: "linear-gradient(45deg, black, transparent)",
                 display: "flex",
-                alignItems: "center",
+                alignItems: "flex-end",
               }}
             >
               <div>
@@ -42,7 +42,7 @@ const Feature = () => {
               </div>
             </div>
           </div>
-          <div
+          <div  
             className="bg-black rounded-lg text-white  shadow-md w-[80vw] h-[350px] md:w-[400px]"
             style={{
               backgroundRepeat: "no-repeat",
@@ -54,9 +54,9 @@ const Feature = () => {
             <div
               className=" w-full h-full p-6  "
               style={{
-                background: "rgb(0 0 0 / 91%)",
+                background: "linear-gradient(45deg, black, transparent)",
                 display: "flex",
-                alignItems: "center",
+                alignItems: "flex-end",
                 textAlign: "center",
               }}
             >
@@ -83,9 +83,9 @@ const Feature = () => {
             <div
               className=" w-full h-full p-6  mx-auto"
               style={{
-                background: "rgb(0 0 0 / 91%)",
+                background: "linear-gradient(45deg, black, transparent)",
                 display: "flex",
-                alignItems: "center",
+                alignItems: "flex-end",
               }}
             >
               <div className="w-full">
@@ -111,9 +111,9 @@ const Feature = () => {
             <div
               className=" w-full h-full p-6  "
               style={{
-                background: "rgb(0 0 0 / 91%)",
+                background: "linear-gradient(45deg, black, transparent)",
                 display: "flex",
-                alignItems: "center",
+                alignItems: "flex-end",
               }}
             >
               <div className="text-center w-full">
@@ -137,9 +137,9 @@ const Feature = () => {
             <div
               className=" w-full h-full p-6  "
               style={{
-                background: "rgb(0 0 0 / 91%)",
+                background: "linear-gradient(45deg, black, transparent)",
                 display: "flex",
-                alignItems: "center",
+                alignItems: "flex-end",
               }}
             >
               <div>
@@ -165,9 +165,9 @@ const Feature = () => {
             <div
               className=" w-full h-full p-6  "
               style={{
-                background: "rgb(0 0 0 / 91%)",
+                background: "linear-gradient(45deg, black, transparent)",
                 display: "flex",
-                alignItems: "center",
+                alignItems: "flex-end",
                 textAlign: "center",
               }}
             >
