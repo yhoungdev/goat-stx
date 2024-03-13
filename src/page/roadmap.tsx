@@ -12,8 +12,8 @@ const Roadmap = () => {
       <section className="text-white flex justify-center items-center h-[60vh]">
         <div className="max-w-2xl px-4 md:px-8 text-center  space-y-6">
       
-          <h2 className="text-5xl md:text-7xl font-bold uppercase title_element default-text">
-            GOATSTX ROADMAP
+          <h2 className="text-3xl md:text-5xl font-bold uppercase title_element default-text">
+            $GOATS{"  "} ROADMAP
           </h2>
           <p>
             The $Goat project is an innovative meme finance ecosystem on

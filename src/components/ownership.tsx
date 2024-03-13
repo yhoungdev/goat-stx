@@ -5,7 +5,7 @@ const Ownership = () => {
   return (
     <div className="bg-brown-800 px-3 text-white text-center py-12 min-h-screen flex flex-col justify-center">
       <h2
-        className="text-5xl lg:text-8xl font-bold mb-4 title_element default-text"
+        className="text-3xl lg:text-6xl font-bold mb-4 title_element default-text"
         data-aos="fade-up"
       >
         TOKEN UTILITIES

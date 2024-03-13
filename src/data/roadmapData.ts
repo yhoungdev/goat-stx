@@ -30,8 +30,9 @@ export const TOKENUTILITY = [
     title: "Governance ",
     content: `$Goat holders vote 🗳  in the continuous development of the ecosystem and future of the finance layer of bitcoin`,
   },
-  // {
-  //   title: "Full scale meme  ",
-  //   content: `Create, launch and bootstrap meme projects with no extra line of codes `,
-  // },
+  {
+    title: "Two way staking utility approach",
+    content: `• stake $Goat earn $Goat rewards\n\n• stake $Goat earn other meme tokens`,
+}
+
 ];
