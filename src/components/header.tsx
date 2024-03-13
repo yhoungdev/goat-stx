@@ -62,7 +62,7 @@ const Header = () => {
           </div>
           <div
             onClick={toggleSidebar}
-            className="bg-[#0c2f07] h-[50px] w-[50px] flex justify-center items-center rounded-full cursor-pointer md:hidden"
+            className="bg-[#013b0142] h-[50px] w-[50px] flex justify-center items-center rounded-full cursor-pointer md:hidden"
           >
             <FaBars color="white" />
           </div>
