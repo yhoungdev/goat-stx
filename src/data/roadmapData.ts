@@ -16,3 +16,23 @@ export const ROADMAPDATA = [
     content: `Create, launch and bootstrap meme projects with no extra line of codes `,
   },
 ];
+
+
+export const TOKENUTILITY = [
+  {
+    title: "Revenue sharing protocol for all $Goat stakers ",
+    content: ` we are creating a decentralised revenue sharing built in utility for $Goat holders, hold $Goat and earn a percentage of all fees generated`,
+  },
+  {
+    title: "Deflationary mechanism",
+    content: `we introduce a deflationary mechanism to increase value for $Goat holders by periodic buy back and burn 🔥 from generated fees`,
+  },
+  {
+    title: "Governance ",
+    content: `$Goat holders vote 🗳  in the continuous development of the ecosystem and future of the finance layer of bitcoin`,
+  },
+  // {
+  //   title: "Full scale meme  ",
+  //   content: `Create, launch and bootstrap meme projects with no extra line of codes `,
+  // },
+];

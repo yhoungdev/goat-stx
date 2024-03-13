@@ -123,6 +123,64 @@ const Feature = () => {
             </div>
           </div>
         </div>
+
+
+        <div className="flex gap-4 flex-col md:flex-row">
+          <div
+            className=" text-white  rounded-lg shadow-md w-[80vw] h-[350px] md:w-[500px]"
+            style={{
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "center",
+              backgroundPosition: "center",
+              backgroundImage: "url(/bg/1.jpeg)",
+            }}
+          >
+            <div
+              className=" w-full h-full p-6  "
+              style={{
+                background: "rgb(0 0 0 / 91%)",
+                display: "flex",
+                alignItems: "center",
+              }}
+            >
+              <div>
+                <h1 className="text-bold title_element text-4xl">
+                Leading Web3 platform for building solid meme communities
+                </h1>
+                <p className="1em">
+                launch community campaigns, create community task, get involved, earn rewards for community building  participation
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            className="bg-black rounded-lg text-white  shadow-md w-[80vw] h-[350px] md:w-[400px]"
+            style={{
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "center",
+              backgroundPosition: "center",
+              backgroundImage: "url(/bg/2.jpeg)",
+            }}
+          >
+            <div
+              className=" w-full h-full p-6  "
+              style={{
+                background: "rgb(0 0 0 / 91%)",
+                display: "flex",
+                alignItems: "center",
+                textAlign: "center",
+              }}
+            >
+              <div>
+                <h1 className="text-bold default_text title_element text-4xl">
+                Liquidity farming
+                </h1>
+                <p className="1em">create and add liquidity to meme projects, earn rewards and foster growth</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </div>
     </div>
   );

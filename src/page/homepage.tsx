@@ -13,7 +13,6 @@ const Homepage = () => {
       <Hero />
       <ActivitySection />
       <Feature />
-      {/* <Ownership /> */}
       <Information />
       <Footer />
     </div>
