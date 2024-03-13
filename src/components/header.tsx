@@ -1,6 +1,7 @@
 //@ts-nocheck
 import React, { useState } from "react";
 import { FaBars, FaDiscord, FaTwitter } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -32,18 +33,18 @@ const Header = () => {
             </a>
           </div>
           <div className="hidden md:flex items-center">
-            <a
-              href="/roadmap"
+            <Link
+              to="/roadmap"
               className="text-white px-4 py-2 hover:underline title_element default-text text-3xl"
             >
               Road Map
-            </a>
-            <a
-              href="/utility"
+            </Link>
+            <Link
+              to="/utility"
               className="text-white px-4 py-2 hover:underline title_element default-text text-3xl"
             >
               Token Utility
-            </a>
+            </Link>
           </div>
           <div className="hidden md:flex justify-center w-full md:w-auto items-center">
             <a
