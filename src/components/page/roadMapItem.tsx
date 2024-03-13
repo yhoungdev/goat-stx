@@ -11,6 +11,8 @@ const ROADMAP = [
   "First meme staking protocol on bitcoin",
   "Anti rug liquidity locker",
   "Meme Dex",
+  "Liquidity farming", 
+  "Leading Web3 platform for building solid meme communities"
 ];
 
 const RoadmapData = () => {
