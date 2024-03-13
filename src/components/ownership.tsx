@@ -10,11 +10,10 @@ const Ownership = () => {
       >
         TOKEN UTILITIES
       </h2>
-      
 
       <p className="mb-8  text-md md:text-xl" data-aos="fade-up">
-      Goat totally revamps the game bringing instant utility and value to
-            holders 
+        Goat totally revamps the game bringing instant utility and value to
+        holders
       </p>
       <div data-aos="fade-up" className="flex flex-wrap justify-center gap-4">
         {TOKENUTILITY.map(({ title, content }, index) => (
@@ -23,16 +22,15 @@ const Ownership = () => {
               key={index}
               className="bg-[#13875c0d] flex items-center p-6 rounded-lg shadow-lg w-full md:w-[350px] h-[250px] text-center"
             >
-             <div>
-             <center>
-             <img src="/icons/reward2.webp" alt="" width={"40px"} />
-
-             </center>
-            <div>
-              <h1 className="text-xl  font-bold">{title}</h1>
-              <p className="my-3">{content}</p>
-            </div>
-             </div>
+              <div>
+                <center>
+                  <img src="/icons/reward2.webp" alt="" width={"40px"} />
+                </center>
+                <div>
+                  <h1 className="text-xl  font-bold">{title}</h1>
+                  <p className="my-3">{content}</p>
+                </div>
+              </div>
             </div>
           </Fragment>
         ))}

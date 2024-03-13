@@ -15,7 +15,7 @@ const Header = () => {
     left: isSidebarOpen ? 0 : "-100%",
     width: "60%",
     height: "100%",
-    backgroundColor: "gray",
+    backgroundColor: "#000000cf",
     transition: "left 0.3s ease",
     padding: "1rem",
     boxSizing: "border-box",
@@ -68,30 +68,26 @@ const Header = () => {
         </nav>
       </header>
 
-      <div style={sidebarStyle}>
+      <div style={sidebarStyle} className="text-center ">
+        <div className="flex items-center h-[80%] flex-col justify-center gap-[4em] text-1xl">
         <a href="/roadmap" className="block py-2 text-white">
           Road Map
         </a>
         <a href="/utility" className="block py-2 text-white">
           Token Utility
         </a>
-        <a
-          href="https://tinyurl.com/GoatCoinSTXdiscord"
-          className="block py-2 text-white"
-        >
-          Discord
-        </a>
-        <a
-          href="https://twitter.com/GoatCoinSTX"
-          className="block py-2 text-white"
-        >
-          Twitter
-        </a>
 
-        <div className="text-right">
-          <button onClick={toggleSidebar} className="text-white">
-            Close
-          </button>
+        <div className="flex items-start justify-center">
+          <a
+            href="https://tinyurl.com/GoatCoinSTXdiscord"
+            className="text-white px-2"
+          >
+            <FaDiscord size={24} />
+          </a>
+          <a href="https://twitter.com/GoatCoinSTX" className="text-white px-2">
+            <FaTwitter size={24} />
+          </a>
+        </div>
         </div>
       </div>
     </>

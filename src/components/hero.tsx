@@ -15,12 +15,12 @@ const Hero = () => {
         {/* Adding an overlay with a lower z-index to ensure content stays behind the header */}
         <div className="absolute inset-0 bg-black bg-opacity-90 z-0"></div>
         <div className="flex md:w-[800px] mx-auto flex-col justify-start  h-[90vh] items-center px-4 md:px-8 pt-4 md:pt-8 relative z-10 my-[5em] md: mt-[10em]">
-          <h1 className="hero-text  title_element text-[5em] text-center md:text-[90px] font-bold mb-4 "
-            style={
-              {
-                lineHeight: 1
-              }
-            }>
+          <h1
+            className="hero-text  title_element text-[5em] text-center md:text-[90px] font-bold mb-4 "
+            style={{
+              lineHeight: 1,
+            }}
+          >
             MEME FINANCE LAYER OF BITCOIN
           </h1>
           <a href="https://tinyurl.com/GoatCoinSTXdiscord">

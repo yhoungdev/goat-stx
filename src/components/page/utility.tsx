@@ -7,10 +7,9 @@ const UtilitiesPage = () => {
     <>
       <Header />
       {/* Adjusted the section for full height and flex centering */}
-     
 
       <div className="mb-[5em]">
-        <Ownership/>
+        <Ownership />
       </div>
       <Footer />
     </>

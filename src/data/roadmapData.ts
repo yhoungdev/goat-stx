@@ -17,7 +17,6 @@ export const ROADMAPDATA = [
   },
 ];
 
-
 export const TOKENUTILITY = [
   {
     title: "Revenue sharing protocol for all $Goat stakers ",
