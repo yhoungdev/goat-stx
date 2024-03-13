@@ -20,7 +20,7 @@ const Roadmap = () => {
             Bitcoin's Stacks, designed to offer secure, inclusive, and
             easy-to-launch solutions for meme communities.
           </p>
-          <Button>Join Discord</Button>
+          <Button>Luanch App</Button>
         </div>
       </section>
 
