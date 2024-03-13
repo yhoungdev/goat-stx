@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 @import url("https://unpkg.com/aos@2.3.1/dist/aos.css");
+@import url("https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,300,400&f[]=montserrat@500,700,200,400,100,300,600&f[]=general-sans@200,600,400,700&f[]=clash-display@200,700,500,600&display=swap");
 :root {
   --primaryColor: "#3f2d1e";
   --dark: "#936947";
   --darkBg: #3f2d1e;
   --font-nunito: "Nunito", sans-serif;
   --bg-green: #13875c;
+  --font-clasha: 'Clash Display', sans-serif;
+  --font-satoshi: 'Satoshi', sans-serif;  
 }
 
 @font-face {
@@ -19,7 +22,7 @@ body {
 }
 
 .title_element {
-  font-family: gamer;
+  font-family: var(--font-clasha);
 }
 
 .custom-button {

@@ -35,19 +35,19 @@ const Header = () => {
           <div className="hidden md:flex items-center">
           <Link
               to="/"
-              className="text-white px-4 py-2 hover:underline title_element default-text text-3xl"
+              className="text-white px-4 py-2 hover:underline title_element default-text text-xl"
             >
               Home
             </Link>
             <Link
               to="/roadmap"
-              className="text-white px-4 py-2 hover:underline title_element default-text text-3xl"
+              className="text-white px-4 py-2 hover:underline title_element default-text text-xl"
             >
               Road Map
             </Link>
             <Link
               to="/utility"
-              className="text-white px-4 py-2 hover:underline title_element default-text text-3xl"
+              className="text-white px-4 py-2 hover:underline title_element default-text text-xl"
             >
               Token Utility
             </Link>

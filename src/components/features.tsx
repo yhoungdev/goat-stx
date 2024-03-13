@@ -4,7 +4,7 @@ const Feature = () => {
   return (
     <div className="bg-brown-600 min-h-screen flex flex-col items-center justify-center text-center p-4">
       <h2
-        className="text-5xl md:text-8xl text-white mb-6 title_element default-text"
+        className="text-5xl md:text-6xl text-white mb-10 title_element default-text "
         data-aos="fade-up"
       >
         PROJECT UTILITY
@@ -32,10 +32,10 @@ const Feature = () => {
               }}
             >
               <div>
-                <h1 className="text-bold title_element text-4xl">
+                <h1 className="text-bold title_element text-2xl">
                   Full scale meme launchpad
                 </h1>
-                <p className="1em">
+                <p className="1em mx-auto md:w-[80%]">
                   create, launch and bootstrap meme projects with no extra line
                   of codes
                 </p>
@@ -61,7 +61,7 @@ const Feature = () => {
               }}
             >
               <div>
-                <h1 className="text-bold default_text title_element text-4xl">
+                <h1 className="text-bold default_text title_element text-2xl">
                   First meme staking protocol on bitcoin{" "}
                 </h1>
                 <p className="1em">stake meme tokens earn rewards</p>
@@ -89,10 +89,10 @@ const Feature = () => {
               }}
             >
               <div className="w-full">
-                <h1 className="text-bold title_element text-4xl">
+                <h1 className="text-bold title_element text-2xl mb-3">
                   Anti rug liquidity locker
                 </h1>
-                <p className="my-4">
+                <p className="my-4 md:w-[80%] mx-auto">
                   projects and meme developers lock liquidity, creating a more
                   secured meme ecosystem
                 </p>
@@ -117,7 +117,7 @@ const Feature = () => {
               }}
             >
               <div className="text-center w-full">
-                <h1 className="text-bold title_element text-4xl">Meme Dex </h1>
+                <h1 className="text-bold title_element text-2xl mb-3">Meme Dex </h1>
                 <p className="1em">Trade meme tokens pairs with ease</p>
               </div>
             </div>
@@ -143,7 +143,7 @@ const Feature = () => {
               }}
             >
               <div>
-                <h1 className="text-bold title_element text-4xl">
+                <h1 className="text-bold title_element text-2xl mb-3">
                   Leading Web3 platform for building solid meme communities
                 </h1>
                 <p className="1em">
@@ -172,7 +172,7 @@ const Feature = () => {
               }}
             >
               <div>
-                <h1 className="text-bold default_text title_element text-4xl">
+                <h1 className="text-bold default_text title_element text-2xl mb-3">
                   Liquidity farming
                 </h1>
                 <p className="1em">

@@ -7,7 +7,7 @@ const ActivitySection = () => {
       <div className="h-[90vh] items-center flex ">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="space-y-6" data-aos="fade-up">
-            <h2 className="text-5xl md:text-7xl font-bold uppercase title_element default-text">
+            <h2 className="text-3xl md:text-5xl font-bold uppercase title_element default-text">
               ABOUT $GOAT
             </h2>
 

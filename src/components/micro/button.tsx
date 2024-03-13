@@ -6,7 +6,7 @@ const Button: FC<{ children: ReactNode; className?: string }> = ({
 }) => {
   return (
     <button
-      className={`title_element default-box  text-3xl cursor-pointer custom-button  bg-primary px-[.5em] py-2 text-white font-bold rounded-xl ${className}`}
+      className={`title_element default-box  text-xl  cursor-pointer custom-button  bg-primary px-[1.5em] py-3 text-white font-bold rounded-xl ${className}`}
     >
       {children}
     </button>
