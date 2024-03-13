@@ -71,12 +71,12 @@ const Header = () => {
 
       <div style={sidebarStyle} className="text-center ">
         <div className="flex items-center h-[80%] flex-col justify-center gap-[4em] text-1xl">
-        <a href="/roadmap" className="block py-2 text-white">
+        <Link to="/roadmap" className="block py-2 text-white">
           Road Map
-        </a>
-        <a href="/utility" className="block py-2 text-white">
+        </Link>
+        <Link to="/utility" className="block py-2 text-white">
           Token Utility
-        </a>
+        </Link>
 
         <div className="flex items-start justify-center">
           <a
