@@ -8,10 +8,9 @@ const Roadmap = () => {
   return (
     <>
       <Header />
-     
+
       <section className="text-white flex justify-center items-center h-[60vh]">
         <div className="max-w-2xl px-4 md:px-8 text-center  space-y-6">
-      
           <h2 className="text-3xl md:text-5xl font-bold uppercase title_element default-text">
             $GOATS{"  "} ROADMAP
           </h2>
@@ -20,7 +19,12 @@ const Roadmap = () => {
             Bitcoin's Stacks, designed to offer secure, inclusive, and
             easy-to-launch solutions for meme communities.
           </p>
-          <Button>Luanch App</Button>
+          
+          <div className="my-[4em]">
+          <a href="https://docs.memegoat.io/">
+            <Button>Luanch App</Button>
+          </a>
+          </div>
         </div>
       </section>
 

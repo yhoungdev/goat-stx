@@ -19,13 +19,14 @@ const Hero = () => {
             className="hero-text  title_element text-[40px] text-center md:text-[70px] font-bold mb-4  "
             style={{
               lineHeight: 1.3,
-              
             }}
           >
             MEME FINANCE LAYER OF BITCOIN
           </h1>
           <a href="https://tinyurl.com/GoatCoinSTXdiscord">
-            <Button className="">Lauch App</Button>
+            <a href="https://docs.memegoat.io/">
+              <Button className="">Launch App</Button>
+            </a>
           </a>
         </div>
       </div>

@@ -42,7 +42,7 @@ const Feature = () => {
               </div>
             </div>
           </div>
-          <div  
+          <div
             className="bg-black rounded-lg text-white  shadow-md w-[80vw] h-[350px] md:w-[400px]"
             style={{
               backgroundRepeat: "no-repeat",
@@ -117,7 +117,9 @@ const Feature = () => {
               }}
             >
               <div className="text-center w-full">
-                <h1 className="text-bold title_element text-2xl mb-3">Meme Dex </h1>
+                <h1 className="text-bold title_element text-2xl mb-3">
+                  Meme Dex{" "}
+                </h1>
                 <p className="1em">Trade meme tokens pairs with ease</p>
               </div>
             </div>

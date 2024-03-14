@@ -33,6 +33,5 @@ export const TOKENUTILITY = [
   {
     title: "Two way staking utility approach",
     content: `• stake $Goat earn $Goat rewards\n\n• stake $Goat earn other meme tokens`,
-}
-
+  },
 ];
