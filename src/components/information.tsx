@@ -1,4 +1,5 @@
 import React from "react";
+import ContactUs from "./micro/contactUs";
 
 const Information = () => {
   return (
@@ -11,15 +12,15 @@ const Information = () => {
       </h2>
 
       <div
-        className=" flex items-center mx-auto p-6 rounded-lg shadow-lg w-full md:w-[900px] h-[350px] md:h-[500px] text-center"
-        style={{
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "center",
-          backgroundPosition: "center",
-          backgroundImage: "url(/bg/cat.jpeg)",
-        }}
+        className=" flex items-center mx-auto rounded-lg shadow-lg w-full md:w-[500px]  text-center"
+        // style={{
+        //   backgroundRepeat: "no-repeat",
+        //   backgroundSize: "center",
+        //   backgroundPosition: "center",
+        //   backgroundImage: "url(/bg/cat.jpeg)",
+        // }}
       >
-        <div></div>
+       <ContactUs/>
       </div>
     </div>
   );
