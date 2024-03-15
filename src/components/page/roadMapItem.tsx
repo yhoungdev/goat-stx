@@ -4,7 +4,7 @@ const RoadmapItem = ({ title, quater, imageSrc }) => (
   <div className="flex flex-col items-left p-4 relative bg-[#091813] w-full md:w-[400px] border-l-8 border-[#c9740a] py-[5em]">
     <h3 className="text-white text-lg font-semibold  ">{title}</h3>
     <h1
-      className=" font-bold text-7xl absolute z-4 opacity-35 left-3 "
+      className=" font-bold text-7xl absolute z-4 opacity-35 right-3 bottom-2 "
       style={{
         color: "rgb(255 255 255 / 10%)",
         fontWeight: "bolder",

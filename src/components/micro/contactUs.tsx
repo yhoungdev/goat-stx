@@ -5,7 +5,7 @@ const ContactUs = () => {
   return (
     <div className=' w-full p-4'>
         <form action="">
-            {/* <label htmlFor="" className='text-left'>Enter Message</label> */}
+          
             <textarea  className='w-full py-5 my-3 px-3 rounded-md ' placeholder='Enter Message' />
 
             <Button>Send</Button>

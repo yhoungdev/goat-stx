@@ -51,6 +51,15 @@ const Header = () => {
             >
               Token Utility
             </Link>
+
+            <a
+              href="https://docs.memegoat.io/"
+              className="text-white px-4 py-2 hover:underline title_element default-text text-xl"
+            >
+              Documentation
+            </a>
+
+            
           </div>
           <div className="hidden md:flex justify-center w-full md:w-auto items-center">
             <a
@@ -118,7 +127,9 @@ const Header = () => {
           <Link to="/utility" className="block py-2 text-white">
             Token Utility
           </Link>
-
+          <a href="https://docs.memegoat.io/" className="block py-2 text-white">
+            Documentation
+          </a>
           <div className="flex items-start justify-center">
             <a
               href="https://tinyurl.com/GoatCoinSTXdiscord"
