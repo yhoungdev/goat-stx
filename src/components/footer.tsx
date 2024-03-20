@@ -10,7 +10,7 @@ const Footer = () => {
           <img src="/logo.png" width={"65"} />
         </a>
       </div>
-      <div className="flex justify-center mb-4 md:mb-0 w-full md:w-auto">
+      <div className="flex flex-wrap justify-center mb-4 md:mb-0 w-full md:w-auto">
         <Link
           to="/roadmap"
           className="text-white px-4 py-2 hover:underline title_element default-text text-xl"
@@ -24,6 +24,16 @@ const Footer = () => {
         >
           Token Utility
         </Link>
+
+        <a
+              href="https://docs.memegoat.io/"
+              className="text-white px-4 py-2 hover:underline title_element default-text text-xl"
+            >
+              Documentation
+            </a>
+
+
+        
       </div>
      
     </footer>

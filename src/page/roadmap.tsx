@@ -21,7 +21,10 @@ const Roadmap = () => {
           </p>
           
           <div className="my-[4em]">
-          <Button>Luanch App</Button>
+          <a href="https://docs.memegoat.io/" target="_blank">
+            <Button className="">Launch App</Button>
+          </a>
+         
           </div>
         </div>
       </section>

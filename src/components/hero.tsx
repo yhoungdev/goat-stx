@@ -23,7 +23,11 @@ const Hero = () => {
           >
             MEME FINANCE LAYER OF BITCOIN
           </h1>
-          <Button className="">Launch App</Button>
+
+          <a href="https://docs.memegoat.io/" target="_blank">
+            <Button className="">Launch App</Button>
+          </a>
+         
         </div>
       </div>
     </div>
